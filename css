@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fbf9f9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #833ae1;
+  
+}
+
+nav {
+  width: 546px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: underline;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 50px;
+  object-fit: contain;
+  background-color: #833ae1;
+}
+
+.banner span {
+  background-color: #833ae1;
+  border-radius: 20px;
+}
+
+.banner h2 {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 35px;
+  text-align: center;
+  color: #833ae1;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 78px;
+  text-align: center;
+  color: #833ae1;
+  border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+  
+}
+
+h1 span {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 78px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 23px;
+  display: inline-block;
+  background-color: #833ae1;
+  padding: 5px 15px 5px 15px;
+}
+
+section {
+  padding: 15px 50px;
+  border: 3px solid #833ae1;
+}
+
+section > h2 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  color: #602b7a;
+}
+
+hr {
+  border: 0;
+  border-bottom: 2px solid #602b7a;
+}
+
+.gradient {
+  background-image: linear-gradient(rgba(203, 248, 109, 0.49) 4.17%, rgba(203, 248, 109, 0.5) 18.23%, #fbf9f9 67.19% );
+}
+
+.quote {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #602b7a;
+  margin: 42px auto 70px;
+  text-align: center;
+  width: 80%;
+}
+
+.idea {
+  background-color: #ffffff;
+  border-radius: 20px;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 63px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 50px;
+  padding-right: 25px;
+  width: 485px;
+  margin: 0 auto;
+color: #833ae1;
+}
+
+.idea span {
+  color: #a5dc31;
+}
+
+.course-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 91px;
+  
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #833ae1;
+  padding: 25px 38px;
+  border-radius: 15px;
+  width: 575px;
+  margin-bottom: 42px;
+  
+  
+}
+
+.card:hover {
+  background-color: lightcyan;
+}
+
+.card img {
+  float: left;
+  margin-right: 25px;
+}
+
+.card h3 {
+  float: left;
+  margin-top: 35px;
+}
+
+.card p {
+  float: left;
+  width: 90%;
+}
+
+.number {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 35px;
+  text-align: center;
+  color: #602b7af5;
+  margin-top: 100px;
+}
+.info-skills {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  width: 75%;
+  margin: 0 auto 85px;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skills article {
+  background-color: #fbf9f9;
+  border: 1px solid rgba(96, 43, 122, 0.96);
+  border-radius: 18px;
+  padding: 25px;
+  width: 47%;
+  height: 88px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgba(96, 43, 122, 0.96);
+  margin-bottom: 40px;
+}
+
+.skills article:hover {
+  background-color: lightyellow;
+}
+
+.student {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 125px;
+  margin-bottom: 80px;
+}
+
+.name {
+  font-weight: 700;
+  line-height: 35px;
+  color: #602b7af5;
+  margin-bottom: 25px;
+  margin-top: 0;
+  font-size: 48px;
+}
+.age {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+  color: #602b7af5;
+  margin-bottom: 42px;
+}
+
+ul {
+}
+
+li {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  color: #602b7af5;
+}
+.photo {
+  object-fit: contain;
+  width: 320px;
+}
+
+footer {
+  padding: 25px 50px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.links a {
+  margin-right: 52px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  color: #602b7af5;
+  text-decoration: none;
+}
+
+.links a:last-child {
+  margin-right: 0;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bottom p {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  color: #602b7af5;
+}
+
+a:hover {
+  color: red;
+}
