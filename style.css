@@ -13,7 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #833ae1;
-  
+  padding: 15px 50px;
 }
 
 nav {
@@ -36,6 +36,10 @@ nav a {
   width: 50px;
   object-fit: contain;
   background-color: #833ae1;
+}
+
+.banner {
+  padding: 127px 50px 145px 50px;
 }
 
 .banner span {
@@ -126,7 +130,7 @@ color: #833ae1;
 
 .course-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 91px;
   
